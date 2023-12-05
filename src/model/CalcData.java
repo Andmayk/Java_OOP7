@@ -37,7 +37,7 @@ public class CalcData {
     public float result() throws IOException {
         Logger logger = Logger.getLogger(CalcData.class.getName());
         logger.setLevel(Level.WARNING);
-        FileHandler flog = new FileHandler("F:\\Java\\oop7\\OOPSeminar7_HW\\src\\Calc.log",true);
+        FileHandler flog = new FileHandler("calc.log",true);
         SimpleFormatter sFormat = new SimpleFormatter();
         flog.setFormatter(sFormat);
         logger.addHandler(flog);
