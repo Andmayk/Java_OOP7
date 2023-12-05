@@ -1,0 +1,6 @@
+дек. 05, 2023 10:27:09 PM controller.Logg main
+INFO: Это информационное сообщение
+дек. 05, 2023 10:27:09 PM controller.Logg main
+WARNING: Это предупреждающее сообщение
+дек. 05, 2023 10:27:09 PM controller.Logg main
+SEVERE: Это сообщение об ошибке
