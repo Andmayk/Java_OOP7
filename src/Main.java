@@ -10,7 +10,7 @@ import java.util.logging.*;
 public class Main {
     public static void main(String[] args) throws IOException {
         Logger logger = Logger.getLogger(Main.class.getName());
-        FileHandler flog = new FileHandler("F:\\Java\\oop7\\OOPSeminar7_HW\\src\\Calc.log",true);
+        FileHandler flog = new FileHandler("calc.log",true);
         SimpleFormatter sFormat = new SimpleFormatter ();
         flog.setFormatter(sFormat);
         logger.setLevel(Level.INFO);
